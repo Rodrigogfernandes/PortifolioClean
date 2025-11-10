@@ -1204,12 +1204,12 @@ body.dark-theme .theme-toggle .theme-icon.moon-icon {
         font-size: 1.5rem;
     }
     .skills {
-        gap: 1.5rem !important;
-        justify-content: space-around !important;
+        gap: 1.3rem !important;
+        justify-content: center;
     }
     .skills img {
-        height: 45px;
-        width: 45px;
+        height: 40px;
+        width: 40px;
     }
     .hero-content {
         margin-top: 4rem;
