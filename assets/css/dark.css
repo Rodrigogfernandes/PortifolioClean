@@ -1,0 +1,403 @@
+/* Tema Dark - Aplicado apenas quando body tem classe dark-theme */
+body.dark-theme {
+    /* Variáveis do tema dark */
+    --primary: #5b7fff;
+    --secondary: #8b7fff;
+    --dark: #0a0a0a;
+    --light: #1a1a1a;
+    --text: #e0e0e0;
+    --gray: #a0a0a0;
+    --green: #4ade80;
+    --shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+/* Body e fundo geral */
+body.dark-theme {
+    background-color: var(--dark);
+    color: var(--text);
+}
+
+/* Scrollbar personalizado - Dark */
+body.dark-theme ::-webkit-scrollbar-track {
+    background: var(--dark);
+}
+
+body.dark-theme ::-webkit-scrollbar-thumb {
+    background: var(--primary);
+}
+
+body.dark-theme ::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary);
+}
+
+/* Header - Dark */
+body.dark-theme header.scrolled {
+    background: rgba(26, 26, 26, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-theme .logo {
+    color: var(--primary);
+}
+
+body.dark-theme .nav-links a {
+    color: var(--text);
+}
+
+body.dark-theme .nav-links a:hover {
+    color: var(--primary);
+}
+
+body.dark-theme .burger div {
+    background-color: var(--text);
+}
+
+/* Hero Section - Dark */
+body.dark-theme .hero {
+    background-color: var(--dark);
+}
+
+body.dark-theme .hero p {
+    color: var(--gray);
+}
+
+body.dark-theme .hero-bg {
+    background: linear-gradient(135deg, rgba(91, 127, 255, 0.15), rgba(139, 127, 255, 0.1));
+}
+
+/* About Section - Dark */
+body.dark-theme .about {
+    background-color: var(--light);
+}
+
+body.dark-theme .about-content p {
+    color: var(--gray);
+}
+
+body.dark-theme .about-image::before {
+    border-color: var(--primary);
+}
+
+/* Projects Section - Dark */
+body.dark-theme .projects {
+    background-color: var(--dark);
+}
+
+body.dark-theme .section-header p {
+    color: var(--gray);
+}
+
+body.dark-theme .project-card {
+    background: var(--light);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-theme .project-card:hover {
+    box-shadow: 0 15px 40px rgba(91, 127, 255, 0.2);
+    border-color: var(--primary);
+}
+
+body.dark-theme .project-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+}
+
+body.dark-theme .project-links a {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text);
+    backdrop-filter: blur(10px);
+}
+
+body.dark-theme .project-links a:hover {
+    background: var(--primary);
+    color: white;
+}
+
+body.dark-theme .project-tag {
+    background: rgba(91, 127, 255, 0.2);
+    color: var(--primary);
+    border: 1px solid rgba(91, 127, 255, 0.3);
+}
+
+body.dark-theme .project-title {
+    color: var(--text);
+}
+
+body.dark-theme .project-desc {
+    color: var(--gray);
+}
+
+/* Services Section - Dark */
+body.dark-theme .services {
+    background-color: var(--light);
+}
+
+body.dark-theme .service-card {
+    background: var(--dark);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-theme .service-card::before {
+    background: var(--gradient);
+}
+
+body.dark-theme .service-icon {
+    background: rgba(91, 127, 255, 0.2);
+    color: var(--primary);
+}
+
+body.dark-theme .service-card:hover .service-icon {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+body.dark-theme .service-card h3 {
+    color: var(--text);
+}
+
+body.dark-theme .service-card p {
+    color: var(--gray);
+}
+
+/* Contact Section - Dark */
+body.dark-theme .contact {
+    background-color: var(--dark);
+}
+
+body.dark-theme .contact-info h2 {
+    color: var(--text);
+}
+
+body.dark-theme .contact-info p {
+    color: var(--gray);
+}
+
+body.dark-theme .contact-icon {
+    background: rgba(91, 127, 255, 0.2);
+    color: var(--primary);
+}
+
+body.dark-theme .contact-text h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+    color: var(--text);
+}
+
+body.dark-theme .contact-text p {
+    font-size: 1rem;
+    color: var(--gray);
+    margin-bottom: 0;
+}
+
+body.dark-theme .contact-text a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: transform 0.5s ease, color 0.3s ease;
+}
+
+body.dark-theme .contact-text a:hover {
+    color: var(--secondary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+body.dark-theme .social-link {
+    background: rgba(91, 127, 255, 0.2);
+    color: var(--primary);
+    border: 1px solid rgba(91, 127, 255, 0.3);
+}
+
+body.dark-theme .social-link:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+body.dark-theme .contact-form {
+    background: var(--light);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-theme .contact-form h2 {
+    color: var(--text);
+}
+
+body.dark-theme .contact-form span {
+    color: var(--green);
+}
+
+body.dark-theme .form-group label {
+    color: var(--text);
+}
+
+body.dark-theme .form-control {
+    background: var(--dark);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--text);
+}
+
+body.dark-theme .form-control::placeholder {
+    color: var(--gray);
+}
+
+body.dark-theme .form-control:focus {
+    background: rgba(26, 26, 26, 0.8);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(91, 127, 255, 0.3);
+    color: var(--text);
+}
+
+body.dark-theme textarea.form-control {
+    color: var(--text);
+    background: var(--dark);
+}
+
+/* Footer - Dark */
+body.dark-theme footer {
+    background: #0a0a0a;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-theme .footer-logo {
+    color: white;
+}
+
+body.dark-theme .footer-about p {
+    color: #888;
+}
+
+body.dark-theme .footer-heading {
+    color: var(--text);
+}
+
+body.dark-theme .footer-links a {
+    color: #888;
+}
+
+body.dark-theme .footer-links a:hover {
+    color: var(--primary);
+}
+
+body.dark-theme .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #888;
+}
+
+/* Loader - Dark */
+body.dark-theme .loader {
+    background: var(--dark);
+}
+
+body.dark-theme .loader-circle {
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-top: 5px solid var(--primary);
+}
+
+body.dark-theme .loader-logo {
+    color: var(--primary);
+}
+
+/* Highlight Effect - Dark */
+body.dark-theme .highlight-effect {
+    background: var(--primary);
+    opacity: 0.2;
+    box-shadow: 0 0 20px var(--primary);
+}
+
+/* Nav Links Mobile - Dark */
+@media (max-width: 768px) {
+    body.dark-theme .nav-links {
+        background: var(--light);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    body.dark-theme .nav-links a {
+        color: var(--text);
+    }
+
+    /* Botão fixo mobile - Dark */
+    body.dark-theme .theme-toggle-fixed {
+        border: 2px solid var(--primary);
+        background: var(--primary);
+        color: white;
+        box-shadow: 0 4px 20px rgba(91, 127, 255, 0.5);
+    }
+
+    body.dark-theme .theme-toggle-fixed:hover,
+    body.dark-theme .theme-toggle-fixed:active {
+        box-shadow: 0 6px 25px rgba(91, 127, 255, 0.6);
+    }
+}
+
+/* Skills Images - Dark */
+body.dark-theme .skills img {
+    filter: brightness(0.9);
+    transition: filter 0.3s ease;
+}
+
+body.dark-theme .skills img:hover {
+    filter: brightness(1.2) drop-shadow(0 5px 15px rgba(91, 127, 255, 0.5));
+}
+
+/* Ajustes adicionais para melhor contraste */
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6 {
+    color: var(--text);
+}
+
+/* Botões - Dark */
+body.dark-theme .btn-outline {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+body.dark-theme .btn-outline:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* Arrow - Dark */
+body.dark-theme .arrow {
+    background: var(--light);
+    color: var(--text);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-theme .arrow:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* Nav Dot - Dark */
+body.dark-theme .nav-dot {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+body.dark-theme .nav-dot.active {
+    background: var(--primary);
+}
+
+/* Particles JS - Ajuste para dark mode */
+body.dark-theme #particles-js {
+    opacity: 0.6;
+}
+
+/* Botão de alternância de tema - Dark */
+body.dark-theme .theme-toggle {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+body.dark-theme .theme-toggle:hover {
+    background: var(--primary);
+    color: white;
+    box-shadow: 0 4px 15px rgba(91, 127, 255, 0.4);
+}
