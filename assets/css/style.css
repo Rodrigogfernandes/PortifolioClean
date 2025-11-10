@@ -1063,7 +1063,7 @@ body.dark-theme .theme-toggle .theme-icon.moon-icon {
         display: flex;
         width: 40px;
         height: 40px;
-        /* background: var(--primary); */
+        background: var(--primary);
         color: white;
         border: none;
         box-shadow: 0 4px 20px rgba(108, 99, 255, 0.4);
@@ -1072,13 +1072,12 @@ body.dark-theme .theme-toggle .theme-icon.moon-icon {
 
     .theme-toggle-fixed:hover,
     .theme-toggle-fixed:active {
-        transform: scale(1.1);
         box-shadow: 0 6px 25px rgba(108, 99, 255, 0.5);
     }
 
     .theme-toggle-fixed .theme-icon {
-        width: 22px;
-        height: 22px;
+        width: 20px;
+        height: 20px;
     }
     
     .theme-toggle-fixed .theme-icon.sun-icon {

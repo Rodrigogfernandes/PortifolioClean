@@ -392,8 +392,9 @@ body.dark-theme #particles-js {
 
 /* Botão de alternância de tema - Dark */
 body.dark-theme .theme-toggle {
-    border-color: var(--primary);
-    color: var(--primary);
+    background: var(--primary);
+    color: white;
+    border: 2px solid var(--primary);
 }
 
 body.dark-theme .theme-toggle:hover {
