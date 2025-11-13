@@ -203,7 +203,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 - 📱 Telefone: [+55 (83) 99925-1636](tel:+5583999251636)
 - 📧 Email: [rodrigo.guedes.f@gmail.com](mailto:rodrigo.guedes.f@gmail.com)
 - 📍 Localização: João Pessoa - PB, Brasil
-- 🖥️ Rodrigodev.net [rodrigodev.net](http://www.rodrigodev.net/)
+- 🖥️ Rodrigodev.net [rodrigodev.net](http://www.rodrigodev.net/-v)
 - 💼 LinkedIn: [rodrigogfernandes](https://www.linkedin.com/in/rodrigogfernandes/)
 - 💻 GitHub: [Rodrigogfernandes](https://github.com/Rodrigogfernandes)
 - 📷 Instagram: [@rodrigogfernandes1](https://www.instagram.com/rodrigogfernandes1/)
